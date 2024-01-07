@@ -2,7 +2,7 @@ import React from 'react'
 import logo from "../resourses/logo.png"
 import { v4 as uuidV4 } from 'uuid'
 import { useState } from 'react'
-import { Toast, toast } from 'react-hot-toast'
+import { toast } from 'react-hot-toast'
 import { useNavigate } from 'react-router-dom'
 
 const EditorForm = () => {

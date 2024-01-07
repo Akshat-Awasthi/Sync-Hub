@@ -1,4 +1,4 @@
-FROM mhart/alpine-node
+FROM node
 
 WORKDIR /Sync-Hub
 
@@ -10,4 +10,5 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "sh", "-c", "npm start && nodemon server.js" ]
+CMD ["npm", "start", "&", "npx", "nodemon", "server.js"]
+

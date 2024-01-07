@@ -1,14 +1,12 @@
 import React from 'react';
 import { BrowserRouter, Routes ,Route } from 'react-router-dom';
 import Header from './pages/Header';
-import Home from './pages/Home.jsx';
 import EditorForm from './pages/EditorForm';
 import EditorPage from './pages/EditorPage';
 import "./style/header.scss"
 import "./style/App.scss"
 import "./style/editorform.scss"
 import "./style/editorpage.scss"
-import "./style/home.scss"
 import { Toaster } from 'react-hot-toast';
 
 
